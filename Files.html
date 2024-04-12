@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>admin</title>
+
+    <!-- ===== font Awesome ==== -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ======== css ======= -->
+    <link rel="stylesheet" href="css/farmork.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- ========= Google Fonts ====== -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <div id="page" class="page d-flex">
+      <div class="sidebar bg-white p-20 p-relative">
+        <h3 class="p-relative text-c mt-0">Admin</h3>
+        <ul>
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="index.html"
+            >
+              <i class="fa-solid fa-list-check fa-fw"></i>
+              <span>Dashbord</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="Settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="Profile.html"
+            >
+              <i class="fa-solid fa-user"></i>
+              <span>Profile</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="Projects.html"
+            >
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="Courses.html"
+            >
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Courses</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="Friends.html"
+            >
+              <i class="fa-solid fa-user-group"></i>
+              <span>Friends</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="actave align-center fs-14 c-black rad-6 p-10 w-100"
+              href="Files.html"
+            >
+              <i class="fa-solid fa-file"></i>
+              <span class="fs-14">Files</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="align-center fs-14 c-black rad-6 p-10 w-100"
+              href="plans.html"
+            >
+              <i class="fa-solid fa-credit-card"></i>
+              <span class="fs-14">Plans</span>
+            </a>
+          </li>
+        </ul>
+
+        <a class="top" href="#page"
+          ><i class="fa-solid fa-jet-fighter-up"></i
+        ></a>
+      </div>
+
+      <div class="content w-100">
+        <!-- ======= Header ==== -->
+        <header class="head bg-white p-15 align-center between-flex">
+          <div class="search p-relative">
+            <input class="p-10" type="search" placeholder="search" />
+          </div>
+          <div class="icons align-center">
+            <span class="p-relative noification">
+              <i class="fa-regular fa-bell fa-lg"></i>
+            </span>
+            <img src="imgs/avatar.png" alt="" />
+          </div>
+        </header>
+        <h1 class="p-relative">Files</h1>
+
+        <!-- ======= Page Files ======== -->
+        <section class="Page-Files d-flex m-20 gap-20">
+          <div class="files-stats p-20 bg-white rad-10">
+            <h2 class="mt-0 mb-15 text-c-mobile">Files Statistics</h2>
+
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-regular fa-file-pdf fa-lg blue center-flex c-blue icon"
+              ></i>
+              <div class="info">
+                <span>Pdf Files</span>
+                <span class="d-block c-grey mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-regular fa-images fa-lg green center-flex c-green icon"
+              ></i>
+              <div class="info">
+                <span>Images</span>
+                <span class="d-block c-grey mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <div class="d-flex align-center border-eee p-10 rad-6 mb-15 fs-13">
+              <i
+                class="fa-regular fa-file-word fa-lg blue center-flex c-blue icon"
+              ></i>
+              <div class="info">
+                <span>Word Files </span>
+                <span class="d-block c-grey mt-5">130</span>
+              </div>
+              <div class="size c-grey">6.5GB</div>
+            </div>
+            <a
+              href=""
+              class="upload bg-blue c-white fs-13 rad-6 d-block w-fitContent"
+            >
+              <i class="fa-solid fa-angles-up mr-10"></i>
+              Upload</a
+            >
+          </div>
+          <div class="files-content d-grid gap-20">
+            <!-- === Start file=== -->
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/pdf.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.pdf</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/sql.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-sql.sql</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/avi.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-avi.avi</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/eps.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-eps.eps</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/psd.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-psd.psd</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/png.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-png.png</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/dll.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.dll</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/zip.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.zip</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/txt.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.txt</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/pdf.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.pdf</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/sql.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-sql.sql</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/avi.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-avi.avi</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/eps.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-eps.eps</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/psd.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-psd.psd</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/png.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-png.png</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/dll.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.dll</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/zip.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.zip</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/txt.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.txt</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/pdf.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.pdf</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/sql.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-sql.sql</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/avi.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-avi.avi</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/eps.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-eps.eps</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/psd.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-psd.psd</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/png.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-png.png</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/dll.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.dll</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/zip.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.zip</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+            <div class="file bg-white p-10 rad-10">
+              <i class="fa-solid fa-download c-grey p-absolute"></i>
+              <div class="icon text-c">
+                <img src="imgs/txt.svg" class="mt-15 mb-15" alt="" />
+              </div>
+              <h4 class="text-c mb-10 fs-14">my-files.txt</h4>
+              <p class="c-grey fs-13">Beaa</p>
+              <div class="info between-flex mt-10 pt-10 fs-13 c-grey">
+                <span>07/02/2024</span>
+                <span>300MB</span>
+              </div>
+            </div>
+
+            <!-- === End file=== -->
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
